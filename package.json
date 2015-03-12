@@ -1,0 +1,37 @@
+{
+  "name": "sails-hook-newrelic",
+  "description": "Integrates newrelic with your Sails application",
+  "version": "0.1.0",
+  "author": {
+    "name": "Kiko Beats",
+    "email": "josefrancisco.verdu@gmail.com",
+    "url": "https://github.com/Kikobeats"
+  },
+  "bugs": {
+    "url": "Kikobeats/sails-hook-newrelic/issues"
+  },
+  "dependencies": {
+    "newrelic": "^1.17.1",
+    "newrelic-config": "git+https://github.com/Kikobeats/newrelic-config.git"
+  },
+  "devDependencies": {
+    "sails": "~0.11.0",
+    "should": "*",
+    "mocha": "*"
+  },
+  "engines": {
+    "node": ">= 0.10.0",
+    "npm": ">= 1.4.0"
+  },
+  "homepage": "Kikobeats/sails-hook-newrelic",
+  "keywords": ["sails", "hook", "newrelic", "metrics", "integration"],
+  "license": "MIT",
+  "main": "./index.js",
+  "repository": "Kikobeats/sails-hook-newrelic",
+  "scripts": {
+    "test": "sh test/test.sh"
+  },
+  "sails": {
+    "isHook": true
+  }
+}
