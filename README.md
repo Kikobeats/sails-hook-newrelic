@@ -9,6 +9,7 @@
 > Integrates newrelic with your Sails application
 
 ## Install
+> **Note:** This library requires sails >= 0.11.0
 
 ```bash
 npm install sails-hook-newrelic
