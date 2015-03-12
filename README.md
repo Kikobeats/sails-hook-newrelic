@@ -16,7 +16,20 @@ npm install sails-hook-newrelic
 
 ## Usage
 
-Just setup your settings in `config/newrelic` following the rules of [newrelic](https://github.com/newrelic/node-newrelic) package.
+Just setup your settings in `config/newrelic` following the rules of [newrelic](https://github.com/newrelic/node-newrelic) package like:
+
+```js
+module.exports.newrelic = {
+  app_name: ['your-app-name'],
+  license_key: 'your-license-key',
+  logging: {
+    level: 'warn', // can be error, warn, info, debug or trace
+    rules: {
+      ignore: ['^/socket.io/*/xhr-polling']
+    }
+  }
+};
+```
 
 
 ## License
