@@ -17,7 +17,7 @@ npm install sails-hook-newrelic
 
 ## Usage
 
-Just setup your settings in `config/newrelic` following the rules of [newrelic](https://github.com/newrelic/node-newrelic) package like:
+1) Setup your newrelic connection in  `config/newrelic` following the rules of [newrelic](https://github.com/newrelic/node-newrelic) package like:
 
 ```js
 module.exports.newrelic = {
@@ -32,9 +32,12 @@ module.exports.newrelic = {
 };
 ```
 
+2) add the following line in the first line of your `app.js`:
+
+```js
+require('sails-hook-newrelic/register');
+```
 
 ## License
 
 MIT © [Kiko Beats](http://www.kikobeats.com)
-
-
