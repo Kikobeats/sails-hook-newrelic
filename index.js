@@ -2,6 +2,8 @@
 
 module.exports = function(sails) {
   return {
+    // Pause sails lifting until this hook has completed initializing
+    ready: false,
     initialize: function(next) {
       sails.newrelic = global.newrelic;
       delete global.newrelic;
