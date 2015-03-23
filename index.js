@@ -8,7 +8,7 @@ module.exports = function(sails) {
       sails.newrelic = global.newrelic;
       delete global.newrelic;
       sails.on('router:route', function(route) {
-        if (route.req.options && route.req.options.controller) {
+        if (sails.newRelic && route.req.options && route.req.options.controller) {
           return sails.newrelic.setControllerName(route.req.options.controller, route.req.options.action);
         }
       });
