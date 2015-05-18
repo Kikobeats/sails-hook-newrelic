@@ -21,7 +21,7 @@
     "integration"
   ],
   "dependencies": {
-    "newrelic": "^1.17.1",
+    "newrelic": "^1.19.1",
     "newrelic-config": "git+https://github.com/Kikobeats/newrelic-config.git"
   },
   "devDependencies": {
