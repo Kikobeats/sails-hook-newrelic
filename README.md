@@ -32,7 +32,9 @@ module.exports.newrelic = {
 };
 ```
 
-2) add the following line in the first line of your `app.js`:
+2) If you want to override the newrelic configs for the particular environment, add it in  `config/<ENV>/newrelic` or `config/<ENV>` or `config/local`.
+
+3) add the following line in the first line of your `app.js`:
 
 ```js
 require('sails-hook-newrelic/register');
