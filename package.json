@@ -2,7 +2,7 @@
   "name": "sails-hook-newrelic",
   "description": "Integrates newrelic with your Sails application",
   "homepage": "kopylash/sails-hook-newrelic",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "main": "./index.js",
   "author": {
     "name": "Vladyslav Kopylash",
