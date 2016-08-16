@@ -2,7 +2,7 @@
   "name": "sails-hook-newrelic",
   "description": "Integrates newrelic with your Sails application",
   "homepage": "kopylash/sails-hook-newrelic",
-  "version": "0.2.5",
+  "version": "0.3.0",
   "main": "./index.js",
   "author": {
     "name": "Vladyslav Kopylash",
@@ -21,8 +21,7 @@
     "integration"
   ],
   "dependencies": {
-    "newrelic": "^1.17.1",
-    "newrelic-config": "git+https://github.com/Kikobeats/newrelic-config.git"
+    "newrelic": "^1.17.1"
   },
   "devDependencies": {
     "sails": "~0.11.0",
