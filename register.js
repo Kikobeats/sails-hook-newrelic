@@ -2,7 +2,9 @@
 
 var path = require('path');
 
-var configFile = '../../config/newrelic';
+var workingDirectory = process.cwd();
+
+var configFile = path.resolve(workingDirectory, 'config', 'newrelic');
 var config = require(path.resolve(__dirname, configFile)).newrelic;
 
 var env = process.env.NODE_ENV;
@@ -11,7 +13,7 @@ if (!env) {
 }
 
 try {
-  var envFolderConfigFile = '../../config/env/' + env + '/newrelic';
+  var envFolderConfigFile = path.resolve(workingDirectory, 'config', 'env', env, 'newrelic');
   var envFolderConfig = require(path.resolve(__dirname, envFolderConfigFile)).newrelic;
   Object.assign(config, envFolderConfig);
 } catch(e) {
@@ -22,7 +24,7 @@ try {
 }
 
 try {
-  var envConfigFile = '../../config/env/' + env;
+  var envConfigFile = path.resolve(workingDirectory, 'config', 'env', env);
   var envConfig = require(path.resolve(__dirname, envConfigFile)).newrelic;
   Object.assign(config, envConfig);
 } catch(e) {
@@ -33,7 +35,7 @@ try {
 }
 
 try {
-  var localConfigFile = '../../config/local';
+  var localConfigFile = path.resolve(workingDirectory, 'config', 'local');
   var localConfig = require(path.resolve(__dirname, localConfigFile)).newrelic;
   Object.assign(config, localConfig);
 } catch(e) {
