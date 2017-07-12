@@ -28,7 +28,7 @@
     "integration"
   ],
   "dependencies": {
-    "newrelic": "^1.17.1"
+    "newrelic": "^1.40.0"
   },
   "devDependencies": {
     "sails": "~0.11.0",
