@@ -1,3 +1,24 @@
+<a name="0.3.3"></a>
+## 0.3.3 (2017-07-12)
+
+* 0.2.5 release ([74f38b7](https://github.com/Kikobeats/sails-hook-newrelic/commit/74f38b7))
+* 0.3.1 release ([066fd9b](https://github.com/Kikobeats/sails-hook-newrelic/commit/066fd9b))
+* 0.3.2 ([bc2dea2](https://github.com/Kikobeats/sails-hook-newrelic/commit/bc2dea2))
+* added bumped config ([d64ac9b](https://github.com/Kikobeats/sails-hook-newrelic/commit/d64ac9b))
+* added contributors ([275ca3e](https://github.com/Kikobeats/sails-hook-newrelic/commit/275ca3e))
+* added dynamic env configs posibility ([a2f9424](https://github.com/Kikobeats/sails-hook-newrelic/commit/a2f9424))
+* fixed relative paths ([40069f1](https://github.com/Kikobeats/sails-hook-newrelic/commit/40069f1))
+* fixed typo in hook ([b52371c](https://github.com/Kikobeats/sails-hook-newrelic/commit/b52371c))
+* increased patch version ([fe76cb1](https://github.com/Kikobeats/sails-hook-newrelic/commit/fe76cb1))
+* release 0.3.0 ([33c3803](https://github.com/Kikobeats/sails-hook-newrelic/commit/33c3803))
+* removed newrelic-config dependency, implemented it as lib/configurator module and covered more confi ([1f8bf68](https://github.com/Kikobeats/sails-hook-newrelic/commit/1f8bf68))
+* some fixes in Readme.md ([c52f5be](https://github.com/Kikobeats/sails-hook-newrelic/commit/c52f5be))
+* updated ([116c661](https://github.com/Kikobeats/sails-hook-newrelic/commit/116c661))
+* Updated new relic version ([4259844](https://github.com/Kikobeats/sails-hook-newrelic/commit/4259844))
+* Use absolute paths for getting configs ([1dd3d54](https://github.com/Kikobeats/sails-hook-newrelic/commit/1dd3d54))
+
+
+
 # Change Log
 
 ## [0.2.2](https://github.com/Kikobeats/sails-hook-newrelic/tree/0.2.2) (2015-03-24)
