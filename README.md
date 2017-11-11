@@ -1,5 +1,7 @@
 # sails-hook-newrelic
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/sails-hook-newrelic.svg)](https://greenkeeper.io/)
+
 [![Build Status](http://img.shields.io/travis/Kikobeats/sails-hook-newrelic/master.svg?style=flat)](https://travis-ci.org/Kikobeats/sails-hook-newrelic)
 [![Dependency status](http://img.shields.io/david/Kikobeats/sails-hook-newrelic.svg?style=flat)](https://david-dm.org/Kikobeats/sails-hook-newrelic)
 [![Dev Dependencies Status](http://img.shields.io/david/dev/Kikobeats/sails-hook-newrelic.svg?style=flat)](https://david-dm.org/Kikobeats/sails-hook-newrelic#info=devDependencies)
