@@ -31,12 +31,14 @@
     "sails"
   ],
   "dependencies": {
-    "newrelic": "^1.40.0"
+    "newrelic": "~5.10.0"
   },
   "devDependencies": {
-    "mocha": "*",
-    "sails": "~0.11.0",
-    "should": "*"
+
+    "sails": "~0.12.0",
+    "should": "*",
+    "mocha": "*"
+
   },
   "engines": {
     "node": ">= 0.10.0",

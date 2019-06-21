@@ -13,16 +13,20 @@ describe('Basic tests ::', function() {
 
         // Attempt to lift sails
         Sails().lift({
-            hooks: {
+
+          hooks: {
                 // Load the hook
                 "your-hook-name": require('../'),
                 // Skip grunt (unless your hook uses it)
-                "grunt": false
+                "sockets": false,
+                "pubsub": false,
+                "i18n": false,
             },
             log: {
                 level: "error"
             }
         }, function(err, _sails) {
+
             if (err) return done(err);
             sails = _sails;
             return done();

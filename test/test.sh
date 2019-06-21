@@ -12,12 +12,9 @@ echo
 }
 
 run() {
-  mocha \
-  -b \
-  --require should \
-  --reporter spec \
+  node_modules/mocha/bin/_mocha \
+  --ui bdd\
   --timeout 120000 \
-  --slow 300 \
   "$@"
 }
 
