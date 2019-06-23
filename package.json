@@ -1,10 +1,8 @@
 {
   "name": "sails-hook-newrelic",
   "description": "Integrates newrelic with your Sails application",
-
   "homepage": "http://Kikobeats/sails-hook-newrelic",
-  "version": "0.3.4",
-
+  "version": "0.4.1",
   "main": "./index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
@@ -36,11 +34,9 @@
     "newrelic": "~5.10.0"
   },
   "devDependencies": {
-
     "sails": "~0.12.0",
     "should": "*",
     "mocha": "*"
-
   },
   "engines": {
     "node": ">= 0.10.0",
