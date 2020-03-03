@@ -31,7 +31,7 @@
     "sails"
   ],
   "dependencies": {
-    "newrelic": "~5.10.0"
+    "newrelic": "^6.4.2"
   },
   "devDependencies": {
     "sails": "~0.12.0",
